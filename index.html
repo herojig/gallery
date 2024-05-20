@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Image with Link</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            text-align: center;
+        }
+        img {
+            width: 600px;
+            height: 600px;
+            object-fit: cover; /* Ensures the image covers the dimensions without distortion */
+            margin-bottom: 20px;
+        }
+        .link {
+            font-size: 18px;
+            color: #007bff;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://herojig.github.io/images/I love u plant.png" alt="Logo">
+        <h1>My Parked Cartoon Page</h1>
+        <img src="https://herojig.github.io/images/mr.png" alt="Main Image">
+        <p><i>Cartoons Coming Soon!</i></p>
+        <a href="docs/Page1.html" class="link">Go to Page 1</a>
+        <div class="contact">
+            <p>Contact <a href="mailto:jigs@gmail.com" class="email">jigs@gmail.com</a> for more info on exactly when :)</p>
+        </div>
+    </div>
+</body>
+</html>
