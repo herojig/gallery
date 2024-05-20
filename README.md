@@ -3,27 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parking Page</title>
+    <title>Website Placeholder</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             color: #333;
         }
         .container {
+            max-width: 800px;
+            margin: 50px auto;
             text-align: center;
-            margin-top: 100px;
         }
         h1 {
             font-size: 36px;
+            margin-bottom: 20px;
         }
+        /* img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        } */
         p {
             font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
         }
         .contact {
-            margin-top: 20px;
+            margin-top: 40px;
         }
         .email {
             color: #007bff;
@@ -32,11 +41,14 @@
 </head>
 <body>
     <div class="container">
-        <h1>Parking Page</h1>
-        <p>Coming Soon!</p>
+        <!-- <img src="https://herojig.github.io/images/logo.jpg" alt="Logo"> -->
+        <h1>Header Text</h1>
+        <!-- <img src="https://herojig.github.io/images/main_image.jpg" alt="Main Image"> -->
+        <p>Introduction Text</p>
         <div class="contact">
-            <p>Contact <a href="mailto:jigs@herojig.com" class="email">jigs@herojig.com</a> for more info</p>
+            <p>Contact <a href="mailto:contact_info@example.com" class="email">contact_info@example.com</a> for more info</p>
         </div>
     </div>
 </body>
 </html>
+
