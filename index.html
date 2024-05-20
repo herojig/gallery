@@ -3,47 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centered Image with Link</title>
+    <title>Home</title>
     <style>
         body, html {
             height: 100%;
             margin: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 20px;
         }
         .container {
             text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
         }
         img {
-            width: 600px;
-            height: 600px;
-            object-fit: cover; /* Ensures the image covers the dimensions without distortion */
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
             margin-bottom: 20px;
         }
-        .link {
+        .navigation {
+            margin-top: 20px;
+        }
+        .navigation a {
             font-size: 18px;
             color: #007bff;
             text-decoration: none;
-            margin-top: 20px;
         }
-        .link:hover {
+        .navigation a:hover {
             text-decoration: underline;
         }
     </style>
 </head>
 <body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="page1.html">Page 1</a>
+        <a href="page2.html">Page 2</a>
+    </div>
     <div class="container">
+        <h1>Welcome to the Homepage</h1>
         <img src="images/logo.png" alt="Logo">
-        <h1>Parked Page</h1>
-        <img src="images/mr.png" alt="Main Image">
-        <p><i>Coming Soon!</i></p>
-        <a href="Page 1.html" class="link">Go to Page 1</a>
-        <div class="contact">
-            <p>Contact <a href="mailto:jigs@gmail.com" class="email">jigs@herojig.com</a> for more info.</p>
-        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat aliquam est, vel convallis velit tincidunt nec. Integer vestibulum efficitur justo, a ultricies lacus fringilla ac. Nam at nunc libero. Suspendisse potenti. In vitae libero quis urna accumsan lacinia. Integer euismod, leo et volutpat rutrum, enim orci sodales libero, eget consequat tortor dolor ac ex.</p>
+        <p>Curabitur eget tincidunt ligula, at dignissim sapien. Morbi at magna eget eros vehicula eleifend sit amet a felis. Sed sed dolor nec arcu volutpat blandit eget at arcu. Mauris sodales, felis vel fermentum laoreet, magna orci egestas odio, a efficitur dui odio eu est. Proin sagittis elit ac enim gravida, et varius nulla pharetra. In in fermentum felis. Cras consectetur velit in nunc commodo, ac dignissim purus fringilla.</p>
     </div>
 </body>
 </html>
