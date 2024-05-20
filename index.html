@@ -3,39 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Placeholder</title>
+    <title>Centered Image with Link</title>
     <style>
-        body {
+        body, html {
+            height: 100%;
             margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             background-color: #f4f4f4;
-            color: #333;
         }
         .container {
-            max-width: 800px;
-            margin: 50px auto;
             text-align: center;
         }
-        h1 {
-            font-size: 36px;
+        img {
+            width: 600px;
+            height: 600px;
+            object-fit: cover; /* Ensures the image covers the dimensions without distortion */
             margin-bottom: 20px;
         }
-        /* img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 20px;
-        } */
-        p {
+        .link {
             font-size: 18px;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-        .contact {
-            margin-top: 40px;
-        }
-        .email {
             color: #007bff;
+            text-decoration: none;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -45,9 +37,9 @@
         <h1>My Parked Cartoon Page</h1>
         <img src="https://herojig.github.io/images/mr.png" alt="Main Image">
         <p><i>Cartoons Coming Soon!</i></p>
+        <a href="Page1.html" class="link">Go to Page 1</a>
         <div class="contact">
-            <p>Contact <a href="mailto:jigs@gmail.com class="email">jigs@gmail.com</a> for more info on 
-                exactally when :) </p>
+            <p>Contact <a href="mailto:jigs@gmail.com" class="email">jigs@gmail.com</a> for more info on exactly when :)</p>
         </div>
     </div>
 </body>
